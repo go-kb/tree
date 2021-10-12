@@ -1,10 +1,13 @@
 # 树型结构
-## 使用代码演示
+## 安装
+go get -u github.com/go-kb/tree
+
+## 演示
 ```Go
 import (
 	"encoding/json"
 	"github.com/go-kb/tree"
-  "fmt"
+        "fmt"
 )
 
 type Model struct {
